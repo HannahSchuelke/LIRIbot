@@ -27,7 +27,7 @@ var spotify = new Spotify(keys);
 // OMDb API with a default parameter of favorite in IF statements
 async function movieSearch(movie) {
 
-    if(!movie){
+    if (!movie) {
         movie = "wizard of oz";
     }
     // console.log("movieSearch() ran");
@@ -43,18 +43,18 @@ async function movieSearch(movie) {
     try {
         const thisBecomesTheDotThenInAsyncAwait = await axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy");
         // console.log("All the data: ", thisBecomesTheDotThenInAsyncAwait.data);
-        console.log("The movie's rating is: " + thisBecomesTheDotThenInAsyncAwait.data.imdbRating);        
+        console.log("The movie's rating is: " + thisBecomesTheDotThenInAsyncAwait.data.imdbRating);
         console.log("Title: " + thisBecomesTheDotThenInAsyncAwait.data.Title);
         console.log("Year: " + thisBecomesTheDotThenInAsyncAwait.data.Year);
         console.log("Rotten Tomatoes Rating: " + thisBecomesTheDotThenInAsyncAwait.data.Ratings[1].Value);
         console.log("Country: " + thisBecomesTheDotThenInAsyncAwait.data.Country);
         console.log("Language: " + thisBecomesTheDotThenInAsyncAwait.data.Language);
         console.log("Plot: " + thisBecomesTheDotThenInAsyncAwait.data.Plot);
-        console.log("Actors: " + thisBecomesTheDotThenInAsyncAwait.data.Actors); 
+        console.log("Actors: " + thisBecomesTheDotThenInAsyncAwait.data.Actors);
     } catch (error) {
         console.log("oh no! we got an error!, this is the error: ", error);
     }
-    
+
 
 }
 
@@ -64,11 +64,11 @@ async function searchBandsInTown(artist) {
     // console.log("searchBandsInTown ran");
     console.log("here is our band to search: " + artist);
 
-    if(!artist) {
-        artist = "deadmau5";        
+    if (!artist) {
+        artist = "deadmau5";
     }
 
-    let bandInfo = await axios.get("https://rest.bandsintown.com/artists/"+ artist +"/events?app_id=oisacfioqwuuwfcenqou");
+    let bandInfo = await axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=oisacfioqwuuwfcenqou");
     bandInfo = bandInfo.data[0];
     // console.log(bandInfo);
 
@@ -78,7 +78,7 @@ async function searchBandsInTown(artist) {
 }
 
 function spotifySearch(song) {
-    if(!song){
+    if (!song) {
         song = "The Sign";
     }
 
@@ -87,8 +87,8 @@ function spotifySearch(song) {
             type: "track",
             query: song
         }, (err, data) => {
-            if(err){
-                return console.log("Error! :", err);                
+            if (err) {
+                return console.log("Error! :", err);
             }
 
             // console.log("spotify data: ", data.tracks.items);
@@ -107,10 +107,10 @@ function testLiriCommand() {
     console.log("This worked!");
 }
 
-function doWhatItSays() {    
-    fs.readFile("random.txt", "utf8", (error, data)=> {
-        if(error){
-           return console.log("Error: ", error);        
+function doWhatItSays() {
+    fs.readFile("random.txt", "utf8", (error, data) => {
+        if (error) {
+            return console.log("Error: ", error);
         }
 
         let dataArray = data.split(",");
@@ -118,7 +118,7 @@ function doWhatItSays() {
 
         return start(doArray);
     })
-    
+
 }
 
 
@@ -148,12 +148,12 @@ function start(processArgs) {
     // .join will turn the array into a string... we're joining it by a space
     // start functionality
 
-    
 
-    
-        let searchItem = commandArray.slice(1).join(" ");
-    
-    
+
+
+    let searchItem = commandArray.slice(1).join(" ");
+
+
     // console.log("searchItem: ", searchItem);
 
     switch (userCommand) {
