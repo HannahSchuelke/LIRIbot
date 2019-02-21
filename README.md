@@ -2,20 +2,23 @@
 
 In this assignment I've created a LIRI, which is like iPhone's SIRI. It differs from SIRI by being a Language Interpretation and Recognition Interface rather than a Speech Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data. Data returned will come from Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
+This is a Javascript/jQuery/nodeJS project for the UMN Coding Bootcamp, assignment 8. 
+
+
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To utilize this project, I access my LIRIbot files via my terminal. From there, I can search for songs, concerts, and movies via using node commands as "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says".
+
+![](image.png)
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+If you would like to access and test my project, you must download the LIRIbot files from my Github [link below] and source you own API keys to put in an .env file. 
 
 ### Installing
 
+First, 
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
@@ -72,16 +75,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **Hannah Schuelke** - (https://github.com/HannahSchuelke)
