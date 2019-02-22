@@ -2,7 +2,7 @@
 
 In this assignment I've created a LIRI, like iPhone's SIRI, but it is a Language Interpretation and Recognition Interface rather than a Speech Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data. Data returned will come from Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
-This is a Javascript/jQuery/API/nodeJS project for the UMN Coding Bootcamp, assignment 8. 
+This is a Javascript/jQuery/API/NodeJS project for the UMN Coding Bootcamp, assignment 8. 
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ If you would like to utilize my project, you must first do an npm install. You m
 
 ### How to use
 
-#####The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call about your search string. The search strings do not need to be inside of quotes and can be multiple words. If you do not enter an artist, my default search will return to you information about my favorites.
+*The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call about your search string. The search strings do not need to be inside of quotes and can be multiple words. If you do not enter an artist, my default search will return to you information about my favorites.*
 
 The "concert-this" function searches the Bands in Town Artist Events API, and returns the name of the artist you searched and information about their next concert: the name of the venue, the city and country of the venue, and the date and time of that show.  
 
@@ -54,21 +54,14 @@ The "do-what-it-says" function uses the fs Node package. With this, LIRI will ta
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+(https://github.com/HannahSchuelke/liri-node-app)
+
 
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
