@@ -79,7 +79,7 @@ async function searchBandsInTown(artist) {
 
 function spotifySearch(song) {
     if (!song) {
-        song = "The Sign";
+        song = "Clair De Lune";
     }
 
     spotify.search(

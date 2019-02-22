@@ -25,10 +25,17 @@ If you would like to utilize my project, you must first do an npm install. You m
 7. From here you may find information by typing "node liri.js *function* *search string*"
 
 ### How to use
-"concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call and return your requested information. 
 
-![](image.png)
-![](http://i.imgur.com/OUkLi.gif)
+The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call and about your search string. If you mistype, default searches are in place and will return for you information about my favorites. The search strings do not need to be inside of quotes and can be multiple words. 
+
+"concert-this" searches the Bands in Town Artist Events API, and returns ame of the venue
+
+
+Venue location
+
+
+Date of the Event (use moment to format this as "MM/DD/YYYY")
+![](http://i.imgur.com/OUkLi.gif)![](http://i.imgur.com/OUkLi.gif)![](http://i.imgur.com/OUkLi.gif)![](http://i.imgur.com/OUkLi.gif)
 
 
 ```
