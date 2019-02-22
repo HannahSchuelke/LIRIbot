@@ -35,7 +35,7 @@ Venue location
 
 
 Date of the Event (use moment to format this as "MM/DD/YYYY")
-![](http://i.imgur.com/OUkLi.gif)![](http://i.imgur.com/OUkLi.gif)![](http://i.imgur.com/OUkLi.gif)![](http://i.imgur.com/OUkLi.gif)
+![](image.png)![](image.png)![](image.png)![](image.png)
 
 
 ```
