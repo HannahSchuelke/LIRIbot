@@ -26,13 +26,19 @@ If you would like to utilize my project, you must first do an npm install. You m
 
 ### How to use
 
-The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call about your search string. If you do not enter an artist, my default search will return to you information about my favorites. The search strings do not need to be inside of quotes and can be multiple words. 
+The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call about your search string. The search strings do not need to be inside of quotes and can be multiple words. If you do not enter an artist, my default search will return to you information about my favorites.
 
 "concert-this" searches the Bands in Town Artist Events API, and returns the name of the artist you searched and information about their next concert: the name of the venue, the city and country of the venue, and the date and time of that show.  
 
-![](concertThisDieAntwoord.png)![](concertThisDefault.png)!
+![](concertThisDieAntwoord.png)
 
+![](concertThisDefault.png)
 
+"spotify-this-song" searches the Spotify API and returns information about the song in your terminal/bash window. Information returned is: artist(s), the song's name, a preview link of the song from Spotify, and the album that the song is from.
+
+![](spotifyThisSongStrawberryWine.png)
+
+![](spotifyThisSongDefault.png)
 
 ```
 Give an example
