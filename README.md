@@ -26,16 +26,12 @@ If you would like to utilize my project, you must first do an npm install. You m
 
 ### How to use
 
-The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call and about your search string. If you mistype, default searches are in place and will return for you information about my favorites. The search strings do not need to be inside of quotes and can be multiple words. 
+The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call about your search string. If you do not enter an artist, my default search will return to you information about my favorites. The search strings do not need to be inside of quotes and can be multiple words. 
 
-"concert-this" searches the Bands in Town Artist Events API, and returns ame of the venue
+"concert-this" searches the Bands in Town Artist Events API, and returns the name of the artist you searched and information about their next concert: the name of the venue, the city and country of the venue, and the date and time of that show.  
 
+![](concertThisDieAntwoord.png)![](image.png)!
 
-Venue location
-
-
-Date of the Event (use moment to format this as "MM/DD/YYYY")
-![](image.png)![](image.png)![](image.png)![](image.png)
 
 
 ```

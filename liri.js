@@ -34,7 +34,7 @@ async function movieSearch(movie) {
 
 // Bands in Town API:
 async function searchBandsInTown(artist) {
-    console.log("The artist you have searched is: " + artist);
+    console.log("The artist you want to see is: " + artist);
 
     if (!artist) {
         artist = "deadmau5";
