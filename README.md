@@ -23,9 +23,10 @@ If you would like to utilize my project, you must first do an npm install. You m
 5. Source your own Spotify API key and insert that in your .env file. 
 6. Open up your terminal and direct yourself to the folder where you have rooted my project. 
 7. From here you may find information by typing "node liri.js *function* *search string*"
-8. The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call about your search string. The search strings do not need to be inside of quotes and can be multiple words. If you do not enter an artist, my default search will return to you information about my favorites.
 
 ### How to use
+
+######The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call about your search string. The search strings do not need to be inside of quotes and can be multiple words. If you do not enter an artist, my default search will return to you information about my favorites.
 
 The "concert-this" function searches the Bands in Town Artist Events API, and returns the name of the artist you searched and information about their next concert: the name of the venue, the city and country of the venue, and the date and time of that show.  
 
@@ -37,7 +38,14 @@ The "spotify-this-song" function searches the Spotify API and returns informatio
 
 ![](spotifyThisSongStrawberryWine.png)
 
-![](spotifyThisSongClairDeLuneDefault.png)
+![](SpotifyThisSongClairDeLuneDefault.png)
+
+the "movie-this" function searches the OMDB API and the following information to your terminal/bash window: the movie title you searched, the year it came out, the IMDB Rating of the movie, rotten Tomatoes Rating of the movie, the country where the movie was produced, the language of the movie, its plot, and actors in the movie.
+
+![](spotifyThisSongStrawberryWine.png)
+
+![](SpotifyThisSongClairDeLuneDefault.png)
+
 
 ```
 Give an example
