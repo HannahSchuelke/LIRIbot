@@ -26,7 +26,7 @@ If you would like to utilize my project, you must first do an npm install. You m
 
 ### How to use
 
-######The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call about your search string. The search strings do not need to be inside of quotes and can be multiple words. If you do not enter an artist, my default search will return to you information about my favorites.
+#####The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call about your search string. The search strings do not need to be inside of quotes and can be multiple words. If you do not enter an artist, my default search will return to you information about my favorites.
 
 The "concert-this" function searches the Bands in Town Artist Events API, and returns the name of the artist you searched and information about their next concert: the name of the venue, the city and country of the venue, and the date and time of that show.  
 
@@ -46,14 +46,11 @@ the "movie-this" function searches the OMDB API and the following information to
 
 ![](movieThisWizardOfOzDefault.png)
 
+The "do-what-it-says" function uses the fs Node package. With this, LIRI will take the text inside of random.txt and then use it to call LIRI's spotify-this-song command. It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt. I will edit the text in random.txt to test out the feature for movie-this.
 
-```
-Give an example
-```
+![](DoWhatItSaysSpotifyThisSong.png)
 
-```
-Give an example
-```
+![](DoWhatItSaysMovieThis.png)
 
 ## Deployment
 
