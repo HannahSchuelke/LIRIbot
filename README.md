@@ -42,9 +42,9 @@ The "spotify-this-song" function searches the Spotify API and returns informatio
 
 the "movie-this" function searches the OMDB API and the following information to your terminal/bash window: the movie title you searched, the year it came out, the IMDB Rating of the movie, rotten Tomatoes Rating of the movie, the country where the movie was produced, the language of the movie, its plot, and actors in the movie.
 
-![](spotifyThisSongStrawberryWine.png)
+![](movieThisSevenBridesForSevenBrothers.png)
 
-![](SpotifyThisSongClairDeLuneDefault.png)
+![](movieThisWizardOfOzDefault.png)
 
 
 ```
