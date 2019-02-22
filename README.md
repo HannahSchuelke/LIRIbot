@@ -1,10 +1,8 @@
 # LIRIbot
 
-In this assignment I've created a LIRI, which is like iPhone's SIRI. It differs from SIRI by being a Language Interpretation and Recognition Interface rather than a Speech Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data. Data returned will come from Spotify for songs, Bands in Town for concerts, and OMDB for movies.
+In this assignment I've created a LIRI, like iPhone's SIRI, but it is a Language Interpretation and Recognition Interface rather than a Speech Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data. Data returned will come from Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
-This is a Javascript/jQuery/nodeJS project for the UMN Coding Bootcamp, assignment 8. 
-
-
+This is a Javascript/jQuery/API/nodeJS project for the UMN Coding Bootcamp, assignment 8. 
 
 ## Getting Started
 
@@ -14,42 +12,28 @@ To utilize this project, I access my LIRIbot files via my terminal. From there, 
 
 ### Prerequisites
 
-If you would like to access and test my project, you must download the LIRIbot files from my Github [link below] and source you own API keys to put in an .env file. 
+If you would like to utilize my project, you must first do an npm install. You must also clone the files from my Github repository "liri-node-app" [link below] and source your own API keys to put in an .env file, all within the same folder. 
 
 ### Installing
 
-First, 
-A step by step series of examples that tell you how to get a development env running
+1. Direct yourself to the folder where you'd like to test my project. 
+2. Do an NPM install. 
+3. Go to https://github.com/HannahSchuelke/liri-node-app and clone my files into the same folder.
+4. Make a .gitignore file and type "node_modules" ".DS_Store" ".env" into it. 
+5. Source your own Spotify API key and insert that in your .env file. 
+6. Open up your terminal and direct yourself to the folder where you have rooted my project. 
+7. From here you may find information by typing "node liri.js *function* *search string*"
 
-Say what the step will be
+### How to use
+"concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call and return your requested information. 
 
-```
-Give the example
-```
+![](image.png)
+![](http://i.imgur.com/OUkLi.gif)
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
 
 ```
 Give an example
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
 
 ```
 Give an example
