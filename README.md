@@ -30,7 +30,7 @@ The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it
 
 "concert-this" searches the Bands in Town Artist Events API, and returns the name of the artist you searched and information about their next concert: the name of the venue, the city and country of the venue, and the date and time of that show.  
 
-![](concertThisDieAntwoord.png)![](image.png)!
+![](concertThisDieAntwoord.png)![](concertThisDefault.png)!
 
 
 
