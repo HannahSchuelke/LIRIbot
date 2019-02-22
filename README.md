@@ -6,9 +6,7 @@ This is a Javascript/jQuery/API/NodeJS project for the UMN Coding Bootcamp, assi
 
 ## Getting Started
 
-To utilize this project, I access my LIRIbot files via my terminal. From there, I can search for songs, concerts, and movies via using node commands as "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says".
-
-![](image.png)
+To utilize this project, I access my LIRIbot files via my terminal. From there, I can search for songs, concerts, and movies via using node commands as `concert-this`, `spotify-this-song`, `movie-this`, and `do-what-it-says`.
 
 ### Prerequisites
 
@@ -26,27 +24,27 @@ If you would like to utilize my project, you must first do an npm install. You m
 
 ### How to use
 
-*The functions "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says" will make an API call about your search string. The search strings do not need to be inside of quotes and can be multiple words. If you do not enter an artist, my default search will return to you information about my favorites.*
+*The functions `concert-this`, `spotify-this-song`, `movie-this`, and `do-what-it-says` will make an API call about your search string. The search strings do not need to be inside of quotes and can be multiple words. If you do not enter an artist, my default search will return to you information about my favorites.*
 
-The "concert-this" function searches the Bands in Town Artist Events API, and returns the name of the artist you searched and information about their next concert: the name of the venue, the city and country of the venue, and the date and time of that show.  
+The `concert-this` function searches the Bands in Town Artist Events API, and returns the name of the artist you searched and information about their next concert: the name of the venue, the city and country of the venue, and the date and time of that show.  
 
 ![](concertThisDieAntwoord.png)
 
 ![](concertThisDeadmau5Default.png)
 
-The "spotify-this-song" function searches the Spotify API and returns information about the song in your terminal/bash window. Information returned is: artist(s), the song's name, a preview link of the song from Spotify, and the album that the song is from.
+The `spotify-this-song` function searches the Spotify API and returns information about the song in your terminal/bash window. Information returned is: artist(s), the song's name, a preview link of the song from Spotify, and the album that the song is from.
 
 ![](spotifyThisSongStrawberryWine.png)
 
 ![](SpotifyThisSongClairDeLuneDefault.png)
 
-the "movie-this" function searches the OMDB API and the following information to your terminal/bash window: the movie title you searched, the year it came out, the IMDB Rating of the movie, rotten Tomatoes Rating of the movie, the country where the movie was produced, the language of the movie, its plot, and actors in the movie.
+the `movie-this` function searches the OMDB API and the following information to your terminal/bash window: the movie title you searched, the year it came out, the IMDB Rating of the movie, rotten Tomatoes Rating of the movie, the country where the movie was produced, the language of the movie, its plot, and actors in the movie.
 
 ![](movieThisSevenBridesForSevenBrothers.png)
 
 ![](movieThisWizardOfOzDefault.png)
 
-The "do-what-it-says" function uses the fs Node package. With this, LIRI will take the text inside of random.txt and then use it to call LIRI's spotify-this-song command. It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt. I will edit the text in random.txt to test out the feature for movie-this.
+The `do-what-it-says` function uses the fs Node package. With this, LIRI will take the text inside of random.txt and then use it to call LIRI's spotify-this-song command. It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt. I will edit the text in random.txt to test out the feature for movie-this.
 
 ![](DoWhatItSaysSpotifyThisSong.png)
 
@@ -59,9 +57,11 @@ The "do-what-it-says" function uses the fs Node package. With this, LIRI will ta
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Node Spotify API](https://www.npmjs.com/package/node-spotify-api) - NPM installed
+* [Node Axios](https://www.npmjs.com/package/axios) - Axios package installed
+* [OMDB API](http://www.omdbapi.com/) - Used to generate `movie-this` responces
+* [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api) - Used to generate `concert-this` responces
+* [dotenv](https://www.npmjs.com/package/dotenv) - Installed to load environment variables from my .env file into process.env
 
 ## Authors
 
